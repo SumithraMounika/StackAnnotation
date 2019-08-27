@@ -44,7 +44,7 @@ public class MyStringStackTest extends TestCase {
 		String o1 = null;
 
 		MyStringStack stack = new MyStringStack();
-        assertTrue ("Initial Stack state", stack.isEmpty());
+        assertTrue ("Initial Stack state new", stack.isEmpty());
         try {
             o1 = stack.pop ();
             fail ("Failed pop()");
